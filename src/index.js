@@ -85,4 +85,5 @@ const myTestArray = new MyArray(1, 2, 3,
     new MyArray('one', 'two', 'three',
       new MyArray('four', 'five', 'six')))
 );
+
 console.log(myTestArray.flat(Infinity));
